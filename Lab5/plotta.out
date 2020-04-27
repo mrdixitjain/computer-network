@@ -1,0 +1,5 @@
+set x label "time(seconds)"
+set y label "packets"
+set output  Cwnd.eps"
+set terminal postscript eps
+plot "nf" with lines
